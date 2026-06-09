@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TerraViva | Agronegócio Sustentável e Inteligente</title>
+  <meta name="description" content="TerraViva é referência em agronegócio: grãos, pecuária, agricultura de precisão e tecnologia no campo. Produtividade com sustentabilidade." />
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand">
+        <img src="img/logo.png" alt="Logo TerraViva" class="brand__logo" />
+        <span class="brand__name">Terra<strong>Viva</strong></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav__link">Início</a>
+        <a href="#sobre" class="nav__link">Sobre</a>
+        <a href="#solucoes" class="nav__link">Soluções</a>
+        <a href="#areas" class="nav__link">Atuação</a>
+        <a href="#contato" class="nav__link">Contato</a>
+        <a href="#contato" class="btn btn--small nav__cta">Fale Conosco</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" style="background-image:url('img/hero.jpg')"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content reveal">
+      <span class="hero__tag">🌱 Do campo para o mundo</span>
+      <h1 class="hero__title">Cultivamos o futuro do<br><em>agronegócio</em> brasileiro</h1>
+      <p class="hero__text">
+        Unimos tradição do campo com tecnologia de ponta para entregar mais
+        produtividade, sustentabilidade e resultados em cada safra.
+      </p>
+      <div class="hero__actions">
+        <a href="#solucoes" class="btn">Conheça as soluções</a>
+        <a href="#contato" class="btn btn--ghost">Solicitar proposta</a>
+      </div>
+    </div>
+    <a href="#sobre" class="hero__scroll" aria-label="Rolar para baixo">↓</a>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat reveal">
+        <span class="stat__num" data-target="35" data-suffix="+">0</span>
+        <span class="stat__label">Anos no campo</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-target="120" data-suffix="k">0</span>
+        <span class="stat__label">Hectares cultivados</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-target="980" data-suffix="+">0</span>
+        <span class="stat__label">Produtores parceiros</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-target="98" data-suffix="%">0</span>
+        <span class="stat__label">Clientes satisfeitos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="about" id="sobre">
+    <div class="container about__grid">
+      <div class="about__media reveal">
+        <img src="img/about.jpg" alt="Plantação saudável ao amanhecer" loading="lazy" />
+        <div class="about__badge">
+          <strong>100%</strong>
+          <span>Compromisso<br>sustentável</span>
+        </div>
+      </div>
+      <div class="about__text reveal">
+        <span class="eyebrow">Quem somos</span>
+        <h2 class="section-title">Mais de três décadas alimentando o crescimento do país</h2>
+        <p>
+          A TerraViva nasceu da paixão pela terra e cresceu com a inovação. Hoje
+          somos uma referência em produção agrícola sustentável, integrando
+          manejo responsável, dados e tecnologia para colher melhores resultados.
+        </p>
+        <ul class="about__list">
+          <li>Agricultura de precisão e monitoramento por satélite</li>
+          <li>Manejo sustentável do solo e recursos hídricos</li>
+          <li>Equipe técnica especializada do plantio à colheita</li>
+        </ul>
+        <a href="#solucoes" class="btn btn--dark">Nossas soluções</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOLUÇÕES ===== -->
+  <section class="solutions" id="solucoes">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">O que fazemos</span>
+        <h2 class="section-title">Soluções completas para todo o ciclo produtivo</h2>
+        <p class="section-sub">Da semente à exportação, acompanhamos cada etapa com expertise e tecnologia.</p>
+      </div>
+
+      <div class="solutions__grid">
+        <article class="card reveal">
+          <div class="card__icon">🌾</div>
+          <h3>Produção de Grãos</h3>
+          <p>Soja, milho, trigo e café cultivados com manejo de precisão e alta produtividade.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">🐄</div>
+          <h3>Pecuária Sustentável</h3>
+          <p>Gestão de pastagens, nutrição animal e rastreabilidade total do rebanho.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">🛰️</div>
+          <h3>Agricultura Digital</h3>
+          <p>Drones, sensores e dados em tempo real para decisões mais inteligentes.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">💧</div>
+          <h3>Irrigação Inteligente</h3>
+          <p>Uso eficiente da água com sistemas automatizados e economia de recursos.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">📦</div>
+          <h3>Logística & Exportação</h3>
+          <p>Armazenagem, beneficiamento e escoamento da produção para o mundo.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">🌍</div>
+          <h3>Consultoria Agro</h3>
+          <p>Planejamento técnico e financeiro para maximizar a rentabilidade da fazenda.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ÁREAS DE ATUAÇÃO ===== -->
+  <section class="areas" id="areas">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Áreas de atuação</span>
+        <h2 class="section-title">Onde a TerraViva faz a diferença</h2>
+      </div>
+
+      <div class="areas__grid">
+        <article class="area reveal">
+          <img src="img/crop-grains.jpg" alt="Campo de grãos dourados ao pôr do sol" loading="lazy" />
+          <div class="area__body">
+            <h3>Grãos & Cereais</h3>
+            <p>Alta performance em culturas anuais com sementes selecionadas.</p>
+          </div>
+        </article>
+        <article class="area reveal">
+          <img src="img/crop-livestock.jpg" alt="Gado em pastagem verde" loading="lazy" />
+          <div class="area__body">
+            <h3>Pecuária</h3>
+            <p>Rebanho saudável com bem-estar animal e produtividade.</p>
+          </div>
+        </article>
+        <article class="area reveal">
+          <img src="img/crop-tech.jpg" alt="Drone sobrevoando plantação" loading="lazy" />
+          <div class="area__body">
+            <h3>Tecnologia no Campo</h3>
+            <p>Inovação que transforma dados em colheitas melhores.</p>
+          </div>
+        </article>
+        <article class="area reveal">
+          <img src="img/crop-produce.jpg" alt="Frutas, café e milho colhidos" loading="lazy" />
+          <div class="area__body">
+            <h3>Hortifrúti & Café</h3>
+            <p>Qualidade premium da fazenda direto para o mercado.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA / CONTATO ===== -->
+  <section class="cta" id="contato">
+    <div class="container cta__grid">
+      <div class="cta__text reveal">
+        <span class="eyebrow eyebrow--light">Vamos conversar</span>
+        <h2 class="section-title">Pronto para elevar a produtividade da sua produção?</h2>
+        <p>Preencha o formulário e nossa equipe entrará em contato para entender suas necessidades.</p>
+        <ul class="cta__contacts">
+          <li>📞 (11) 4002-8922</li>
+          <li>✉️ contato@terraviva.agr.br</li>
+          <li>📍 Rod. do Agronegócio, Km 32 — Interior, Brasil</li>
+        </ul>
+      </div>
+
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="voce@email.com" required />
+        </div>
+        <div class="field">
+          <label for="assunto">Assunto</label>
+          <select id="assunto" name="assunto" required>
+            <option value="">Selecione...</option>
+            <option>Produção de grãos</option>
+            <option>Pecuária</option>
+            <option>Agricultura digital</option>
+            <option>Consultoria</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu projeto..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--block">Enviar mensagem</button>
+        <p class="form__feedback" id="formFeedback" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="brand">
+          <img src="img/logo.png" alt="Logo TerraViva" class="brand__logo" />
+          <span class="brand__name">Terra<strong>Viva</strong></span>
+        </a>
+        <p>Cultivando resultados sustentáveis para o agronegócio do futuro.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Navegação</h4>
+        <a href="#sobre">Sobre</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#areas">Atuação</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer__col">
+        <h4>Soluções</h4>
+        <a href="#solucoes">Grãos</a>
+        <a href="#solucoes">Pecuária</a>
+        <a href="#solucoes">Agro Digital</a>
+        <a href="#solucoes">Consultoria</a>
+      </div>
+      <div class="footer__col">
+        <h4>Redes</h4>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">YouTube</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© <span id="year"></span> TerraViva Agronegócio. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#inicio" class="back-top" id="backTop" aria-label="Voltar ao topo">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
